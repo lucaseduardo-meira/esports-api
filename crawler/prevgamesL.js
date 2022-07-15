@@ -28,7 +28,12 @@ request({ url, gzip: true }, function (err, res, body) {
         // R0ecebe os jogos dos times que fazem parte da liga que está sendo procurada
         if (liga_jogo.includes(liga)) {
           var time1 = $(this)
-            .find("div.mobileTeamContainer > :not(.gvStCd) ")
+            .find("div.mobileTeamContainer > p ")
+            .first()
+            .text()
+            .trim();
+          var result1 = $(this)
+            .find("div.mobileTeamContainer > div.exlLqx ")
             .first()
             .text()
             .trim();
@@ -37,8 +42,17 @@ request({ url, gzip: true }, function (err, res, body) {
             .last()
             .text()
             .trim();
+          var result2 = $(this)
+            .find("div.mobileTeamContainer > div.exlLqx")
+            .last()
+            .text()
+            .trim();
           var data = $(this).find("div.gwKKIh span").text().trim();
-          console.log(`=======>${time1} X ${time2} => ${data}`);
+          console.log(
+            `=======>${time1 + " " + result1}  X  ${
+              result2 + " " + time2
+            } => ${data}`
+          );
         }
       });
     });
