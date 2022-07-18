@@ -45,13 +45,13 @@ request({ url, gzip: true }, function (err, res, body) {
               .last()
               .text()
               .trim();
-            match.result1 = $(this)
+            var result1 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx ")
               .first()
               .text()
               .trim();
 
-            match.result2 = $(this)
+            var result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
