@@ -31,12 +31,17 @@ request({ url, gzip: true }, function (err, res, body) {
           // Informações de liga e horario do jogo
           const info_jogo = $(this).find("div.gwKKIh").text().trim();
           var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
-
+          let match = {};
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
-          if (liga_jogo.includes(liga)) {
-            var time1 = $(this)
+          if (liga_jogo === liga) {
+            match.time1time1 = $(this)
               .find("div.mobileTeamContainer > p ")
               .first()
+              .text()
+              .trim();
+            match.time2 = $(this)
+              .find("div.mobileTeamContainer > p")
+              .last()
               .text()
               .trim();
             var result1 = $(this)
@@ -44,11 +49,7 @@ request({ url, gzip: true }, function (err, res, body) {
               .first()
               .text()
               .trim();
-            var time2 = $(this)
-              .find("div.mobileTeamContainer > p")
-              .last()
-              .text()
-              .trim();
+
             var result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
