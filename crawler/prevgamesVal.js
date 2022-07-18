@@ -40,22 +40,24 @@ request({ url, gzip: true }, function (err, res, body) {
               .first()
               .text()
               .trim();
-            match.result1 = $(this)
-              .find("div.mobileTeamContainer > div.exlLqx ")
-              .first()
-              .text()
-              .trim();
             match.time2 = $(this)
               .find("div.mobileTeamContainer > p")
               .last()
               .text()
               .trim();
+            match.result1 = $(this)
+              .find("div.mobileTeamContainer > div.exlLqx ")
+              .first()
+              .text()
+              .trim();
+
             match.result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
               .trim();
             match.data = $(this).find("div.gwKKIh span").text().trim();
+            var results = [Number(result1), Number(result2)];
           }
         });
       });
