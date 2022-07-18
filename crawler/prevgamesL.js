@@ -34,7 +34,7 @@ request({ url, gzip: true }, function (err, res, body) {
           let match = {};
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo === liga) {
-            match.time1time1 = $(this)
+            match.time1 = $(this)
               .find("div.mobileTeamContainer > p ")
               .first()
               .text()
@@ -49,13 +49,14 @@ request({ url, gzip: true }, function (err, res, body) {
               .first()
               .text()
               .trim();
-
             var result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
               .trim();
-            var data = $(this).find("div.gwKKIh span").text().trim();
+            match.data = $(this).find("div.gwKKIh span").text().trim();
+            var results = [Number(result1), Number(result2)];
+            match.results = results;
             console.log(
               `=======>${time1 + " " + result1}  X  ${
                 result2 + " " + time2
