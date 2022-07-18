@@ -52,6 +52,19 @@ request({ url, gzip: true }, function (err, res, body) {
         campeonato.matches = matches;
         val.push(campeonato);
       });
+      fs.writeFile(
+        "./Valorant/nextgamesval.json",
+        JSON.stringify(val, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+
+          console.log(result);
+        }
+      );
     }
   }
 });
