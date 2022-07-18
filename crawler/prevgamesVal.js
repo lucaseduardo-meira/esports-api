@@ -35,32 +35,27 @@ request({ url, gzip: true }, function (err, res, body) {
           let match = {};
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo.includes(liga)) {
-            var time1 = $(this)
+            match.time1 = $(this)
               .find("div.mobileTeamContainer > p ")
               .first()
               .text()
               .trim();
-            var result1 = $(this)
+            match.result1 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx ")
               .first()
               .text()
               .trim();
-            var time2 = $(this)
+            match.time2 = $(this)
               .find("div.mobileTeamContainer > p")
               .last()
               .text()
               .trim();
-            var result2 = $(this)
+            match.result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
               .trim();
-            var data = $(this).find("div.gwKKIh span").text().trim();
-            console.log(
-              `=======>${time1 + " " + result1}  X  ${
-                result2 + " " + time2
-              } => ${data}`
-            );
+            match.data = $(this).find("div.gwKKIh span").text().trim();
           }
         });
       });
