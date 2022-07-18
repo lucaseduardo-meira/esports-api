@@ -1,0 +1,3008 @@
+[
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "VCT",
+    "matches": [
+      {
+        "time1": "PR",
+        "time2": "FNA",
+        "data": "17/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "OPT",
+        "data": "17/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "GUI",
+        "time2": "FPX",
+        "data": "16/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "XSE",
+        "data": "16/07/2022 18:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LEV",
+        "time2": "DRX",
+        "data": "15/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "XSE",
+        "time2": "OPT",
+        "data": "15/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "PR",
+        "time2": "GUI",
+        "data": "14/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FNA",
+        "time2": "FPX",
+        "data": "14/07/2022 17:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "Nth",
+        "data": "13/07/2022 15:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "OPT",
+        "data": "13/07/2022 18:07",
+        "results": [
+          0,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "FPX",
+        "data": "12/07/2022 13:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "Nth",
+        "time2": "XER",
+        "data": "12/07/2022 16:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "OPT",
+        "data": "12/07/2022 20:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "FPX",
+        "time2": "XER",
+        "data": "11/07/2022 15:07",
+        "results": [
+          2,
+          1
+        ]
+      },
+      {
+        "time1": "KRÜ",
+        "time2": "GUI",
+        "data": "11/07/2022 18:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "DRX",
+        "time2": "Nth",
+        "data": "10/07/2022 13:07",
+        "results": [
+          2,
+          0
+        ]
+      },
+      {
+        "time1": "LOUD",
+        "time2": "KRÜ",
+        "data": "10/07/2022 15:07",
+        "results": [
+          1,
+          2
+        ]
+      },
+      {
+        "time1": "OPT",
+        "time2": "GUI",
+        "data": "10/07/2022 19:07",
+        "results": [
+          0,
+          2
+        ]
+      }
+    ]
+  }
+]
