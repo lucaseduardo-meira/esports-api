@@ -1,6 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const axios = require("axios");
+const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/antigas/lol/";
 
@@ -63,6 +64,18 @@ request({ url, gzip: true }, function (err, res, body) {
           lol.push(campeonato);
         });
       });
+      fs.writeFile(
+        "./League of legends/prevgameslol.json",
+        JSON.stringify(lol, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+          console.log(result);
+        }
+      );
     }
   }
 });
