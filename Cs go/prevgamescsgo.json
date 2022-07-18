@@ -1,0 +1,12 @@
+{
+  "campeonato" {
+    "name" : "campeonato",
+    "matches" : [
+        {
+            "time1"
+            "time2"
+            "data"
+        }
+    ]
+  }
+}
