@@ -59,6 +59,7 @@ request({ url, gzip: true }, function (err, res, body) {
             match.data = $(this).find("div.gwKKIh span").text().trim();
             var results = [Number(result1), Number(result2)];
             match.results = results;
+            matches.push(match);
           }
         });
       });
