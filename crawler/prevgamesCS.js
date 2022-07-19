@@ -25,20 +25,18 @@ request({ url, gzip: true }, function (err, res, body) {
       console.log("Não há jogos para listar");
     } else {
       ligas.forEach((liga) => {
-        console.log(liga);
+        var campeonato = {};
+        campeonato.nome = liga;
+        var matches = [];
         $("a.iLMKBR").each(function () {
           // Informações de liga e horario do jogo
           const info_jogo = $(this).find("div.gwKKIh").text().trim();
           var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
+          let match = {};
           // R0ecebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo.includes(liga)) {
             var time1 = $(this)
               .find("div.mobileTeamContainer > p ")
-              .first()
-              .text()
-              .trim();
-            var result1 = $(this)
-              .find("div.mobileTeamContainer > div.exlLqx ")
               .first()
               .text()
               .trim();
@@ -47,17 +45,18 @@ request({ url, gzip: true }, function (err, res, body) {
               .last()
               .text()
               .trim();
+            var result1 = $(this)
+              .find("div.mobileTeamContainer > div.exlLqx ")
+              .first()
+              .text()
+              .trim();
+
             var result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
               .trim();
             var data = $(this).find("div.gwKKIh span").text().trim();
-            console.log(
-              `=======>${time1 + " " + result1}  X  ${
-                result2 + " " + time2
-              } => ${data}`
-            );
           }
         });
       });
