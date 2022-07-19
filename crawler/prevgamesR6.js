@@ -49,19 +49,18 @@ request({ url, gzip: true }, function (err, res, body) {
               .first()
               .text()
               .trim();
-
             var result2 = $(this)
               .find("div.mobileTeamContainer > div.exlLqx")
               .last()
               .text()
               .trim();
             match.data = $(this).find("div.gwKKIh span").text().trim();
-            console.log(
-              `=======>${time1 + " " + result1}  X  ${
-                result2 + " " + time2
-              } => ${data}`
-            );
+            var results = [Number(result1), Number(result2)];
+            match.results = results;
+            matches.push(match);
           }
+          campeonato.matches = matches;
+          r6.push(campeonato);
         });
       });
     }
