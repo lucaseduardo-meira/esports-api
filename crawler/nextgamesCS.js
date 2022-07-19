@@ -53,13 +53,18 @@ request({ url, gzip: true }, function (err, res, body) {
         campeonato.matches = matches;
         cs.push(campeonato);
       });
-      fs.writeFile('./Cs go/nextgamescsgo.json' JSON.stringify(cs,null,"  ") ,'utf-8', (error,result) => {
-        if (error) {
-          console.error(error)
-          return
+      fs.writeFile(
+        "./Cs go/nextgamescsgo.json",
+        JSON.stringify(cs, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+          console.log(result);
         }
-        console.log(result)
-      })
+      );
     }
   }
 });
