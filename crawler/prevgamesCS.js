@@ -65,6 +65,18 @@ request({ url, gzip: true }, function (err, res, body) {
           cs.push(campeonato);
         });
       });
+      fs.writeFile(
+        "./Cs go/prevgamescsgo.json",
+        JSON.stringify(cs, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+          console.log(result);
+        }
+      );
     }
   }
 });
