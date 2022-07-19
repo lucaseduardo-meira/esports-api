@@ -1,6 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const axios = require("axios");
+const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/antigas/r6/";
 
@@ -63,6 +64,18 @@ request({ url, gzip: true }, function (err, res, body) {
           r6.push(campeonato);
         });
       });
+      fs.writeFile(
+        "./Rainbow 6/prevgamesr6.json",
+        JSON.stringify(r6, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+          console.log(result);
+        }
+      );
     }
   }
 });
