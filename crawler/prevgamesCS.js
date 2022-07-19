@@ -25,16 +25,16 @@ request({ url, gzip: true }, function (err, res, body) {
       console.log("Não há jogos para listar");
     } else {
       ligas.forEach((liga) => {
+        var campeonato = {};
+        campeonato.nome = liga;
+        var matches = [];
         $("a.iLMKBR").each(function () {
-          var campeonato = {};
-          campeonato.nome = liga;
-          var matches = [];
           // Informações de liga e horario do jogo
           const info_jogo = $(this).find("div.gwKKIh").text().trim();
           var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
           let match = {};
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
-          if (liga_jogo.includes(liga)) {
+          if (liga_jogo === liga) {
             match.time1 = $(this)
               .find("div.mobileTeamContainer > p ")
               .first()
