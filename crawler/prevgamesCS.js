@@ -1,6 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const axios = require("axios");
+const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/antigas/csgo/";
 
@@ -64,6 +65,18 @@ request({ url, gzip: true }, function (err, res, body) {
           cs.push(campeonato);
         });
       });
+      fs.writeFile(
+        "./Cs go/prevgamescsgo.json",
+        JSON.stringify(cs, null, "  "),
+        "utf-8",
+        (error, result) => {
+          if (error) {
+            console.error(error);
+            return;
+          }
+          console.log(result);
+        }
+      );
     }
   }
 });
