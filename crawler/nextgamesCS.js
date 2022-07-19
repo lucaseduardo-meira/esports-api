@@ -50,6 +50,8 @@ request({ url, gzip: true }, function (err, res, body) {
             matches.push(match);
           }
         });
+        campeonato.matches = matches;
+        cs.push(campeonato);
       });
     }
   }
