@@ -19,7 +19,7 @@ request({ url, gzip: true }, function (err, res, body) {
       }
     });
     // Ordena os jogos de cada liga com data
-    if (ligas.length < 1) {
+    if (ligas.length < 0) {
       console.log("Não há jogos para listar");
     } else {
       ligas.forEach((liga) => {
