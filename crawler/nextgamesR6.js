@@ -1,6 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const axios = require("axios");
+const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/proximas/r6/";
 
@@ -10,6 +11,7 @@ request({ url, gzip: true }, function (err, res, body) {
   } else {
     var $ = cheerio.load(body);
     var ligas = [];
+    var r6 = [];
     // Coloca todas as ligas que terão jogos na array ligas
     $("a.bhKFZe > div.gwKKIh > div").each(function () {
       const indice = $(this).text().indexOf(":");
@@ -23,11 +25,14 @@ request({ url, gzip: true }, function (err, res, body) {
       console.log("Não há jogos para listar");
     } else {
       ligas.forEach((liga) => {
-        console.log(liga);
+        var campeonato = {};
+        campeonato.name = liga;
+        var matches = [];
         $("a.bhKFZe").each(function () {
           // Informações de liga e horario do jogo
           const info_jogo = $(this).find("div.gwKKIh").text().trim();
           var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
+          let match = {};
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo === liga) {
             var time1 = $(this)
