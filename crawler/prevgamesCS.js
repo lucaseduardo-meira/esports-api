@@ -1,7 +1,6 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const axios = require("axios");
-const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/antigas/csgo/";
 
@@ -21,19 +20,19 @@ request({ url, gzip: true }, function (err, res, body) {
       }
     });
     // Ordena os jogos de cada liga com data
-    if (ligas.length == 0) {
+    if (ligas.length < 0) {
       console.log("Não há jogos para listar");
     } else {
       ligas.forEach((liga) => {
-        var campeonato = {};
-        campeonato.nome = liga;
-        var matches = [];
         $("a.iLMKBR").each(function () {
+          var campeonato = {};
+          campeonato.nome = liga;
+          var matches = [];
           // Informações de liga e horario do jogo
           const info_jogo = $(this).find("div.gwKKIh").text().trim();
           var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
           let match = {};
-          // R0ecebe os jogos dos times que fazem parte da liga que está sendo procurada
+          // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo.includes(liga)) {
             match.time1 = $(this)
               .find("div.mobileTeamContainer > p ")
@@ -57,26 +56,9 @@ request({ url, gzip: true }, function (err, res, body) {
               .text()
               .trim();
             match.data = $(this).find("div.gwKKIh span").text().trim();
-            var results = [Number(result1), Number(result2)];
-            match.results = results;
-            matches.push(match);
           }
-          campeonato.matches = matches;
-          cs.push(campeonato);
         });
       });
-      fs.writeFile(
-        "./Cs go/prevgamescsgo.json",
-        JSON.stringify(cs, null, "  "),
-        "utf-8",
-        (error, result) => {
-          if (error) {
-            console.error(error);
-            return;
-          }
-          console.log(result);
-        }
-      );
     }
   }
 });
