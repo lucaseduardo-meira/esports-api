@@ -47,7 +47,7 @@ request({ url, gzip: true }, function (err, res, body) {
               .text()
               .trim();
             match.data = $(this).find("div.gwKKIh span").text().trim();
-            console.log(`=======>${time1} X ${time2} => ${data}`);
+            matches.push(match);
           }
         });
       });
