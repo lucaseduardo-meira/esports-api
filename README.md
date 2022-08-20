@@ -11,7 +11,8 @@ O sistema busca seria consumido por um front-end, buscando uma aplicação simil
 
 # Exemplo de front-end que consumiria o JSON
 
-<img src='./img/Onefotball.png'>
+
+![Onefotball](https://user-images.githubusercontent.com/102125807/185726021-38a8e0c3-e3a8-48a1-b507-9eb7e60e7d26.png)
 
 
 # Tecnologias utilizadas
