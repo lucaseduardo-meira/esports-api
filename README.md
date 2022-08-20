@@ -5,7 +5,7 @@
 # Sobre o projeto
 
 
-O Web crawler E-sports pega dados do site maisesports.com.br, porém organiza os dados recebidos em formato JSON, Os arquivos separam os jogos (Counter Stike,Valorant,League of legends e Rainbow Six) e o os dados retornados organiza os campeonatos de cada jogo e as partidas de cada campeonato
+O Web crawler E-sports pega dados do site maisesports.com.br, porém organiza os dados recebidos em formato JSON, Os arquivos da pasta crawler separam os jogos (Counter Stike,Valorant,League of legends e Rainbow Six) e o os dados retornados organiza os campeonatos de cada jogo e as partidas de cada campeonato
 
 O sistema busca seria consumido por um front-end, buscando uma aplicação similiar ao onefootball.com/pt-br/jogos , ordenando cada dia,campeonato e jogos de cada campeonato
 
