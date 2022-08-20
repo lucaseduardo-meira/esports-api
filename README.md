@@ -9,6 +9,9 @@ O Web crawler E-sports pega dados do site maisesports.com.br, porém organiza os
 
 O sistema busca seria consumido por um front-end, buscando uma aplicação similiar ao onefootball.com/pt-br/jogos , ordenando cada dia,campeonato e jogos de cada campeonato
 
+# Exemplo de front-end que consumiria o JSON
+
+<img src='./img/Onefotball.png'>
 
 
 # Tecnologias utilizadas
