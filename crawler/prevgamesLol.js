@@ -1,9 +1,8 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const axios = require("axios");
 const fs = require("fs");
 
-const url = "https://maisesports.com.br/agenda/proximas/lol/";
+const url = "https://maisesports.com.br/agenda/antigas/lol/";
 
 request({ url, gzip: true }, function (err, res, body) {
   if (err) {
@@ -36,7 +35,7 @@ request({ url, gzip: true }, function (err, res, body) {
           // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
           if (liga_jogo === liga) {
             match.time1 = $(this)
-              .find("div.mobileTeamContainer > p")
+              .find("div.mobileTeamContainer > p ")
               .first()
               .text()
               .trim();
@@ -45,15 +44,27 @@ request({ url, gzip: true }, function (err, res, body) {
               .last()
               .text()
               .trim();
+            var result1 = $(this)
+              .find("div.mobileTeamContainer > div.exlLqx ")
+              .first()
+              .text()
+              .trim();
+            var result2 = $(this)
+              .find("div.mobileTeamContainer > div.exlLqx")
+              .last()
+              .text()
+              .trim();
             match.data = $(this).find("div.gwKKIh span").text().trim();
+            var results = [Number(result1), Number(result2)];
+            match.results = results;
             matches.push(match);
           }
+          campeonato.matches = matches;
+          lol.push(campeonato);
         });
-        campeonato.matches = matches;
-        lol.push(campeonato);
       });
       fs.writeFile(
-        "./League of legends/nextgameslol.json",
+        "./League of legends/prevgameslol.json",
         JSON.stringify(lol, null, "  "),
         "utf-8",
         (error, result) => {
@@ -61,7 +72,6 @@ request({ url, gzip: true }, function (err, res, body) {
             console.error(error);
             return;
           }
-
           console.log(result);
         }
       );

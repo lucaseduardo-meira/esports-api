@@ -1,6 +1,5 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const axios = require("axios");
 const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/proximas/csgo/";
