@@ -18,7 +18,7 @@ O sistema buscaria ser consumido por um front-end que se assemelhasse ao onefoot
 # Tecnologias utilizadas
 ## Back end
 - NodeJS
-- Cherrio
+- Cheerio
 
 
 # Como executar o projeto
