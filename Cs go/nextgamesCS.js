@@ -53,7 +53,7 @@ request({ url, gzip: true }, function (err, res, body) {
         cs.push(campeonato);
       });
       fs.writeFile(
-        "./Cs go/nextgamescsgo.json",
+        "/nextgamescsgo.json",
         JSON.stringify(cs, null, "  "),
         "utf-8",
         (error, result) => {

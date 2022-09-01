@@ -21,8 +21,8 @@ function prevgamesval(req, res) {
         }
       });
       // Ordena os jogos de cada liga com data
-      if (ligas.length <= 0) {
-        console.log("Não há jogos para listar");
+      if (ligas.length == 0) {
+        return res.send("Não há jogos para listar");
       } else {
         ligas.forEach((liga) => {
           var campeonato = {};
@@ -88,8 +88,8 @@ function nextgamesval(req, res) {
         }
       });
       // Ordena os jogos de cada liga com data
-      if (ligas.length <= 0) {
-        console.log("Não há jogos para listar");
+      if (ligas.length == 0) {
+        return res.send("Não há jogos para listar");
       } else {
         ligas.forEach((liga) => {
           var campeonato = {};
@@ -120,7 +120,7 @@ function nextgamesval(req, res) {
           val.push(campeonato);
         });
       }
-      res.json(cs);
+      res.json(val);
     }
   });
 }
