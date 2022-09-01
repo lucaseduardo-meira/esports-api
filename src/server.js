@@ -1,9 +1,16 @@
-// const express = require('express')
+const express = require("express");
+// const prevgameslol = require("../crawler/prevgamesLol");
 
-// const app = express()
+const app = express();
 
-// app.use
+app.get("/", (req, res) => {
+  res.send("ok");
+});
 
-const prevgameslol = require("../crawler/prevgamesLol");
+// app.get("/antigas/lol", (req, res) => {
+//   prevgameslol();
+// });
 
-prevgameslol();
+app.listen(3000, () =>
+  console.log("Servidor rodando em http://localhost/3000")
+);

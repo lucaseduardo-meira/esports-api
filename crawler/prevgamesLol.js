@@ -1,10 +1,10 @@
 const request = require("request");
 const cheerio = require("cheerio");
-const fs = require("fs");
+// const fs = require("fs");
 
 const url = "https://maisesports.com.br/agenda/antigas/lol/";
 
-module.exports = function prevgameslol() {
+module.exports = function prevgameslol(req, res) {
   request({ url, gzip: true }, function (err, res, body) {
     if (err) {
       console.log("ERRO: " + err);
@@ -64,19 +64,19 @@ module.exports = function prevgameslol() {
             lol.push(campeonato);
           });
         });
-        console.log(lol);
-        fs.writeFile(
-          "./League of legends/prevgameslol.json",
-          JSON.stringify(lol, null, "  "),
-          "utf-8",
-          (error, result) => {
-            if (error) {
-              console.error(error);
-              return;
-            }
-            console.log(result);
-          }
-        );
+        res.send(lol);
+        // fs.writeFile(
+        //   "./League of legends/prevgameslol.json",
+        //   JSON.stringify(lol, null, "  "),
+        //   "utf-8",
+        //   (error, result) => {
+        //     if (error) {
+        //       console.error(error);
+        //       return;
+        //     }
+        //     console.log(result);
+        //   }
+        // );
       }
     }
   });
