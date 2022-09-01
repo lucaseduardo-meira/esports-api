@@ -1,7 +1,8 @@
 const express = require("express");
-const nextgameslol = require("./crawler/nextgamesLol");
-const prevgameslol = require("./crawler/prevgamesLol");
+const lol = require("./crawler/lol");
 const cs = require("./crawler/csgo");
+const valorant = require("./crawler/valorant");
+const r6 = require("./crawler/r6");
 
 const app = express();
 
@@ -10,11 +11,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/antigas/lol", (req, res) => {
-  prevgameslol(req, res);
+  lol.prevgameslol(req, res);
 });
 
 app.get("/proximas/lol", (req, res) => {
-  nextgameslol(req, res);
+  lol.nextgameslol(req, res);
 });
 
 app.get("/antigas/csgo", (req, res) => {
@@ -26,19 +27,19 @@ app.get("/proximas/csgo", (req, res) => {
 });
 
 app.get("/antigas/valorant", (req, res) => {
-  prevgameslol(req, res);
+  valorant.prevgamesval(req, res);
 });
 
 app.get("/proximas/valorant", (req, res) => {
-  nextgameslol(req, res);
+  valorant.nextgamesval(req, res);
 });
 
 app.get("/antigas/r6", (req, res) => {
-  prevgameslol(req, res);
+  r6.prevgamesr6(req, res);
 });
 
 app.get("/proximas/r6", (req, res) => {
-  nextgameslol(req, res);
+  r6.nextgamesr6(req, res);
 });
 
 app.listen(3000, () =>

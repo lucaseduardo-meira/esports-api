@@ -1,19 +1,19 @@
 const request = require("request");
 const cheerio = require("cheerio");
 
-const url_antigas = "https://maisesports.com.br/agenda/antigas/csgo/";
-const url_proximas = "https://maisesports.com.br/agenda/proximas/csgo/";
+const url_antigas = "https://maisesports.com.br/agenda/antigas/r6/";
+const url_proximas = "https://maisesports.com.br/agenda/proximas/r6/";
 
-function prevgamescsgo(req, res) {
-  request({ url_antigas, gzip: true }, function (err, response, body) {
+function prevgamesr6(req, res) {
+  request({ url, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
       var $ = cheerio.load(body);
       var ligas = [];
-      var cs = [];
+      var r6 = [];
       // Coloca todas as ligas que terão jogos na array ligas
-      $("a.iLMKBR > div.gwKKIh > div").each(function () {
+      $("a.bhKFZe > div.gwKKIh > div").each(function () {
         const indice = $(this).text().indexOf(":");
         const liga = $(this).text().slice(0, indice);
         if (!ligas.includes(liga)) {
@@ -22,13 +22,13 @@ function prevgamescsgo(req, res) {
       });
       // Ordena os jogos de cada liga com data
       if (ligas.length <= 0) {
-        return res.send("Não há jogos para listar");
+        console.log("Não há jogos para listar");
       } else {
         ligas.forEach((liga) => {
           var campeonato = {};
           campeonato.nome = liga;
           var matches = [];
-          $("a.iLMKBR").each(function () {
+          $("a.bhKFZe").each(function () {
             // Informações de liga e horario do jogo
             const info_jogo = $(this).find("div.gwKKIh").text().trim();
             var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
@@ -50,7 +50,6 @@ function prevgamescsgo(req, res) {
                 .first()
                 .text()
                 .trim();
-
               var result2 = $(this)
                 .find("div.mobileTeamContainer > div.exlLqx")
                 .last()
@@ -62,25 +61,25 @@ function prevgamescsgo(req, res) {
               matches.push(match);
             }
             campeonato.matches = matches;
-            cs.push(campeonato);
+            r6.push(campeonato);
           });
         });
       }
-      res.json(cs);
+      res.json(r6);
     }
   });
 }
 
-function nextgamescsgo(req, res) {
-  request({ url_proximas, gzip: true }, function (err, response, body) {
+function nextgamesr6(req, res) {
+  request({ url, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
       var $ = cheerio.load(body);
       var ligas = [];
-      var cs = [];
+      var r6 = [];
       // Coloca todas as ligas que terão jogos na array ligas
-      $("a.iLMKBR > div.gwKKIh > div").each(function () {
+      $("a.bhKFZe > div.gwKKIh > div").each(function () {
         const indice = $(this).text().indexOf(":");
         const liga = $(this).text().slice(0, indice);
         if (!ligas.includes(liga)) {
@@ -88,14 +87,14 @@ function nextgamescsgo(req, res) {
         }
       });
       // Ordena os jogos de cada liga com data
-      if (ligas.length == 0) {
+      if (ligas.length <= 0) {
         console.log("Não há jogos para listar");
       } else {
         ligas.forEach((liga) => {
           var campeonato = {};
-          campeonato.nome = liga;
+          campeonato.name = liga;
           var matches = [];
-          $("a.iLMKBR").each(function () {
+          $("a.bhKFZe").each(function () {
             // Informações de liga e horario do jogo
             const info_jogo = $(this).find("div.gwKKIh").text().trim();
             var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
@@ -117,12 +116,12 @@ function nextgamescsgo(req, res) {
             }
           });
           campeonato.matches = matches;
-          cs.push(campeonato);
+          r6.push(campeonato);
         });
       }
-      res.json(cs);
+      res.json(r6);
     }
   });
 }
 
-module.exports = { prevgamescsgo, nextgamescsgo };
+module.exports = { prevgamesr6, nextgamesr6 };
