@@ -65,7 +65,7 @@ request({ url, gzip: true }, function (err, res, body) {
         });
       });
       fs.writeFile(
-        "./Cs go/prevgamescsgo.json",
+        "/prevgamescsgo.json",
         JSON.stringify(cs, null, "  "),
         "utf-8",
         (error, result) => {
