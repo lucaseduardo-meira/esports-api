@@ -64,7 +64,7 @@ request({ url, gzip: true }, function (err, res, body) {
         });
       });
       fs.writeFile(
-        "./Rainbow 6/prevgamesr6.json",
+        "/prevgamesr6.json",
         JSON.stringify(r6, null, "  "),
         "utf-8",
         (error, result) => {
