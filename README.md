@@ -7,17 +7,18 @@
 
 O Web crawler E-sports pega dados do site maisesports.com.br, porém organiza os dados recebidos em formato JSON, Os arquivos da pasta crawler separam os jogos (Counter Stike,Valorant,League of legends e Rainbow Six) e o os dados retornados organiza os campeonatos de cada jogo e as partidas de cada campeonato
 
-O sistema busca seria consumido por um front-end, buscando uma aplicação similiar ao onefootball.com/pt-br/jogos , ordenando cada dia,campeonato e jogos de cada campeonato
+O sistema buscaria ser consumido por um front-end que se assemelhasse ao onefootball.com/pt-br/jogos , ordenando cada dia,campeonato e jogos de cada campeonato
 
 # Exemplo de front-end que consumiria o JSON
 
-<img src='./img/Onefotball.png'>
+
+![Onefotball](https://user-images.githubusercontent.com/102125807/185726021-38a8e0c3-e3a8-48a1-b507-9eb7e60e7d26.png)
 
 
 # Tecnologias utilizadas
 ## Back end
 - NodeJS
-- Cherrio
+- Cheerio
 
 
 # Como executar o projeto
