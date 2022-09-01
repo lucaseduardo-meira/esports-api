@@ -65,9 +65,9 @@ module.exports = function prevgameslol(req, res) {
           });
         });
       }
+      res.json(lol);
     }
   });
-  res.send('ok')
 };
 // request({ url, gzip: true }, function (err, res, body) {
 //   if (err) {
