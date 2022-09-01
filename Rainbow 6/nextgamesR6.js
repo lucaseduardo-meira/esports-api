@@ -52,7 +52,7 @@ request({ url, gzip: true }, function (err, res, body) {
         r6.push(campeonato);
       });
       fs.writeFile(
-        "./Rainbow 6/nextgamesr6.json",
+        "/nextgamesr6.json",
         JSON.stringify(r6, null, "  "),
         "utf-8",
         (error, result) => {

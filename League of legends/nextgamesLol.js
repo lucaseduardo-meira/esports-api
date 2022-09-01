@@ -52,7 +52,7 @@ request({ url, gzip: true }, function (err, response, body) {
         lol.push(campeonato);
       });
       fs.writeFile(
-        "./nextgameslol.json",
+        "/nextgameslol.json",
         JSON.stringify(lol, null, "  "),
         "utf-8",
         (error, result) => {
