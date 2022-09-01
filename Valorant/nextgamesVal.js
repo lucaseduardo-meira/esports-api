@@ -52,7 +52,7 @@ request({ url, gzip: true }, function (err, res, body) {
         val.push(campeonato);
       });
       fs.writeFile(
-        "./Valorant/nextgamesval.json",
+        "/nextgamesval.json",
         JSON.stringify(val, null, "  "),
         "utf-8",
         (error, result) => {

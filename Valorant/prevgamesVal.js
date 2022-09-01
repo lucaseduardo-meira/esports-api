@@ -65,7 +65,7 @@ request({ url, gzip: true }, function (err, res, body) {
         });
       });
       fs.writeFile(
-        "./Valorant/prevgamesval.json",
+        "/prevgamesval.json",
         JSON.stringify(val, null, "  "),
         "utf-8",
         (error, result) => {
