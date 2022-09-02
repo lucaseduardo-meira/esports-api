@@ -5,7 +5,7 @@ const url_antigas = "https://maisesports.com.br/agenda/antigas/lol/";
 const url_proximas = "https://maisesports.com.br/agenda/proximas/lol/";
 
 function prevgameslol(req, res) {
-  request({ url_antigas, gzip: true }, function (err, response, body) {
+  request({ uri: url_antigas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
@@ -71,7 +71,7 @@ function prevgameslol(req, res) {
 }
 
 function nextgameslol(req, res) {
-  request({ url_proximas, gzip: true }, function (err, response, body) {
+  request({ uri: url_proximas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {

@@ -5,7 +5,7 @@ const url_antigas = "https://maisesports.com.br/agenda/antigas/csgo/";
 const url_proximas = "https://maisesports.com.br/agenda/proximas/csgo/";
 
 function prevgamescsgo(req, res) {
-  request({ url_antigas, gzip: true }, function (err, response, body) {
+  request({ uri: url_antigas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
@@ -72,7 +72,7 @@ function prevgamescsgo(req, res) {
 }
 
 function nextgamescsgo(req, res) {
-  request({ url_proximas, gzip: true }, function (err, response, body) {
+  request({ uri: url_proximas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
