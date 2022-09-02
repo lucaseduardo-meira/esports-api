@@ -26,6 +26,7 @@ O sistema buscaria ser consumido por um front-end que se assemelhasse ao onefoot
 ## Back end
 - NodeJS
 - Cheerio
+- Express
 
 
 # Como executar o projeto
