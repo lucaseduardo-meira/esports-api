@@ -1,4 +1,5 @@
 const express = require("express");
+// const bodyparser = require("body-parser");
 const lol = require("./crawler/lol");
 const cs = require("./crawler/csgo");
 const valorant = require("./crawler/valorant");
@@ -6,6 +7,7 @@ const r6 = require("./crawler/r6");
 
 const app = express();
 
+// app.use(bodyparser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/views"));
 
