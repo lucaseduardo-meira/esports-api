@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: #1b1b1b;
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 400px;
+  width: 50%;
+  margin: auto;
+  margin-top: 25em;
+}
+
+.content-table thead tr {
+  background-color: rgb(229, 245, 82);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px;
+}
+
+a {
+  color: rgb(20, 167, 160);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

@@ -6,8 +6,11 @@ const r6 = require("./crawler/r6");
 
 const app = express();
 
+app.set("view engine", "ejs");
+app.use(express.static(__dirname + "/views"));
+
 app.get("/", (req, res) => {
-  return res.send("ok");
+  res.render("index");
 });
 
 app.get("/antigas/lol", (req, res) => {
