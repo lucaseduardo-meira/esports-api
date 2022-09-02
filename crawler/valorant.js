@@ -5,7 +5,7 @@ const url_antigas = "https://maisesports.com.br/agenda/antigas/valorant/";
 const url_proximas = "https://maisesports.com.br/agenda/proximas/valorant/";
 
 function prevgamesval(req, res) {
-  request({ url, gzip: true }, function (err, response, body) {
+  request({ url_antigas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
@@ -72,7 +72,7 @@ function prevgamesval(req, res) {
 }
 
 function nextgamesval(req, res) {
-  request({ url, gzip: true }, function (err, response, body) {
+  request({ url_proximas, gzip: true }, function (err, response, body) {
     if (err) {
       console.log("ERRO: " + err);
     } else {
