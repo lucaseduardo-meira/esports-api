@@ -46,7 +46,7 @@ yarn install
 # executar o projeto
 O projeto web estará rodando em http://localhost:3000
 
-# O transcrever os arquivos separadamente
+# Para transcrever os arquivos separadamente
 node csgo/nextgamesCS.js
 node lol/nextgamesLol.js
 node R6/nextgamesR6.js
