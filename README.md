@@ -44,9 +44,6 @@ mkdir esportsApi
 # Ir para o diretório do projeto
 cd esportsApi
 
-# entrar na pasta do projeto
-cd crudproject
-
 # clonar repositório
 git clone https://github.com/lucaseduardo-meira/esports-api
 
