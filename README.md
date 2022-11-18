@@ -47,11 +47,14 @@ cd esportsApi
 # clonar repositório
 git clone https://github.com/lucaseduardo-meira/esports-api
 
+# Entrar na pasta
+cd esports-api
+
 # instalar dependências
-yarn install
+yarn install / npm install
 
 # executar o projeto
-yarn start
+yarn start / npm start
 
 # Projeto estará rodando na port:3000
 http://localhost:3000/
