@@ -34,17 +34,30 @@ O sistema buscaria ser consumido por um front-end que se assemelhasse ao onefoot
 Pré-requisitos: Vscode / yarn
 
 ```bash
-# clonar repositório
-git clone https://https://github.com/lucaseduardo-meira/esports-api
+
+# Retornar ao diretório inicial
+cd
+
+# Criar diretório do projeto
+mkdir esportsApi
+
+# Ir para o diretório do projeto
+cd esportsApi
 
 # entrar na pasta do projeto
-cd esports-api
+cd crudproject
+
+# clonar repositório
+git clone https://github.com/lucaseduardo-meira/esports-api
 
 # instalar dependências
 yarn install
 
 # executar o projeto
-O projeto web estará rodando em http://localhost:3000
+yarn start
+
+# Projeto estará rodando na port:3000
+http://localhost:3000/
 
 # Para transcrever os arquivos separadamente
 node csgo/nextgamesCS.js
