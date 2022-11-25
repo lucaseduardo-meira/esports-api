@@ -25,8 +25,7 @@ function prevgamesval(req, res) {
         return res.send("Não há jogos para listar");
       } else {
         ligas.forEach((liga) => {
-          var campeonato = {};
-          campeonato.nome = liga;
+          var campeonato = { nome: liga };
           var matches = [];
           $("a.sc-135bb3bf-1").each(function () {
             // Informações de liga e horario do jogo
@@ -59,10 +58,11 @@ function prevgamesval(req, res) {
               var results = [Number(result1), Number(result2)];
               match.results = results;
               matches.push(match);
+              console.log(match);
             }
-            campeonato.matches = matches;
-            val.push(campeonato);
           });
+          campeonato.matches = matches;
+          val.push(campeonato);
         });
       }
       res.json(val);
