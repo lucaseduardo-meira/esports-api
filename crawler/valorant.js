@@ -13,7 +13,7 @@ function prevgamesval(req, res) {
       var ligas = [];
       var val = [];
       // Coloca todas as ligas que terão jogos na array ligas
-      $("a.cGEVfC > div.gwKKIh > div").each(function () {
+      $("a.sc-135bb3bf-1 > div.fgAeaS > div").each(function () {
         const indice = $(this).text().indexOf(":");
         const liga = $(this).text().slice(0, indice);
         if (!ligas.includes(liga)) {
@@ -28,9 +28,9 @@ function prevgamesval(req, res) {
           var campeonato = {};
           campeonato.nome = liga;
           var matches = [];
-          $("a.cGEVfC").each(function () {
+          $("a.sc-135bb3bf-1").each(function () {
             // Informações de liga e horario do jogo
-            const info_jogo = $(this).find("div.gwKKIh").text().trim();
+            const info_jogo = $(this).find("div.fgAeaS").text().trim();
             var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
             let match = {};
             // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
@@ -46,17 +46,16 @@ function prevgamesval(req, res) {
                 .text()
                 .trim();
               var result1 = $(this)
-                .find("div.mobileTeamContainer > div.exlLqx ")
+                .find("div.mobileTeamContainer > div.sc-135bb3bf-16 ")
                 .first()
                 .text()
                 .trim();
-
               var result2 = $(this)
-                .find("div.mobileTeamContainer > div.exlLqx")
+                .find("div.mobileTeamContainer > div.sc-135bb3bf-16")
                 .last()
                 .text()
                 .trim();
-              match.data = $(this).find("div.gwKKIh span").text().trim();
+              match.data = $(this).find("div.fgAeaS span").text().trim();
               var results = [Number(result1), Number(result2)];
               match.results = results;
               matches.push(match);
@@ -80,9 +79,11 @@ function nextgamesval(req, res) {
       var ligas = [];
       var val = [];
       // Coloca todas as ligas que terão jogos na array ligas
-      $("a.cGEVfC > div.gwKKIh > div").each(function () {
+      $("a.BgCrV > div.gjKAcq > div").each(function () {
+        console.log("ok");
         const indice = $(this).text().indexOf(":");
         const liga = $(this).text().slice(0, indice);
+        console.log(indice);
         if (!ligas.includes(liga)) {
           ligas.push(liga);
         }
@@ -95,9 +96,9 @@ function nextgamesval(req, res) {
           var campeonato = {};
           campeonato.nome = liga;
           var matches = [];
-          $("a.cGEVfC").each(function () {
+          $("a.BgCrV").each(function () {
             // Informações de liga e horario do jogo
-            const info_jogo = $(this).find("div.gwKKIh").text().trim();
+            const info_jogo = $(this).find("div.gjKAcq").text().trim();
             var liga_jogo = info_jogo.slice(0, info_jogo.indexOf(":"));
             let match = {};
             // Recebe os jogos dos times que fazem parte da liga que está sendo procurada
@@ -112,7 +113,7 @@ function nextgamesval(req, res) {
                 .last()
                 .text()
                 .trim();
-              match.data = $(this).find("div.gwKKIh span").text().trim();
+              match.data = $(this).find("div.gjKAcq span").text().trim();
               matches.push(match);
             }
           });
