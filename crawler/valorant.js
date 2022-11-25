@@ -58,7 +58,6 @@ function prevgamesval(req, res) {
               var results = [Number(result1), Number(result2)];
               match.results = results;
               matches.push(match);
-              console.log(match);
             }
           });
           campeonato.matches = matches;
